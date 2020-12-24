@@ -16,7 +16,7 @@ import java.util.List;
 public class ConvertUtils {
     private DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
-    public List<CustomResult> getCustomResults(List<Object[]> source) throws JsonProcessingException {
+    public List<CustomResult> getCustomResults(List<Object[]> source) {
 
         List<CustomResult> customResults = new ArrayList<>();
         int count = 0;
