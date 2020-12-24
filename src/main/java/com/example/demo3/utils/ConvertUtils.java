@@ -1,7 +1,6 @@
 package com.example.demo3.utils;
 
-import com.example.demo3.beans.CustomResult;
-import com.fasterxml.jackson.core.JsonProcessingException;
+import com.example.demo3.beans.custom.CustomResult;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
